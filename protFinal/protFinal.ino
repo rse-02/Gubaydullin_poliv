@@ -25,13 +25,9 @@ void vlazh (){
 }
 void setup (){
    pinMode(2, OUTPUT);  // D2 — выход [1](https://kit.alexgyver.ru/tutorials/pump/)
-    int s=0;
+    int s=1;
 }
 void loop(){
- //Переход Триггеры
-
-
- 
 //-----------------
 //Состояния
   //Измерить
@@ -58,11 +54,4 @@ void loop(){
   if (s==3){
     
   }
-}
-
-
-
-
-
-
 }
